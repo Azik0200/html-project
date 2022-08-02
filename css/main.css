@@ -1,0 +1,246 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@500&display=swap');
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+.img{
+    
+    width: 100%;
+    height: auto;
+    background-image: url(../img4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+}
+.img .bg{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.542);
+    text-align: center;
+    padding-top: 140px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+
+.bg i{
+    margin-bottom: 15px;
+    font-size: 25px; 
+    color: rgb(72, 199, 72);
+    font-size: 50px;
+}
+.bg h1{
+    font-size: 55px;
+}
+.bg h3{
+    margin-top: 20px;
+   font-size: 30px;
+   font-family: 'Bodoni Moda', serif;
+   font-weight: lighter;
+   margin-bottom: 25px;
+   font-style: italic;
+}
+.bg button{
+    width: 150px;
+    height: 32px;
+    text-transform: uppercase;
+    background-color: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.statement .ichi{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.statement h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 25px 0 18px;
+}
+.ichi{
+    margin: 0 200px;
+    margin-bottom: 50px;
+}
+.ichi .lorem{
+    width: 25%;
+    margin: 0 15px 0;
+    text-align: center;
+
+    
+}
+
+.ichi .lorem h6{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lorem a i{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: red;
+    font-size: 25px;
+}
+.red{
+  background-color: rgb(197, 33, 33);
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #fff;
+  margin-bottom: 0;
+}
+.left a{
+    color: #fff;
+}
+.left h3{
+    font-size: 22.5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 7px;
+}
+.center{
+    border-left: 1px solid #fff;
+}
+.center ul{
+    margin-left: 30px;
+}
+ul li{
+    text-transform: capitalize;
+}
+.right button{
+    width: 150px;
+    height: 50px;
+    background-color:  rgb(197, 33, 33);
+    color: #fff;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.church{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.377);
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 50px 0 50px;
+}
+.church i{
+    color: red;
+    text-transform: capitalize;
+}
+.church i span{
+    color: black;
+}
+.church a{
+    color: red;
+}
+.church .left{
+    background-color: #fff;
+    width: 41%;
+    height: 200px;
+    padding: 50px;
+}
+.church .left h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 18px;
+}
+.church .right{
+    margin-left: 20px;
+    background-color: rgb(197, 33, 33);
+    width: 31%;
+    height: 200px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+}
+.church .right div{
+    margin-bottom: 0;
+}
+.church .right h1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    padding-bottom: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+.church .right .h2,.h3,.h4{
+    border-left: 1px solid #fff;
+    padding-left: 35px;
+}
+.church .right p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 10px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+}
+.church .right .h1 p{
+    border-left: none;
+}
+.our{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    margin-bottom: 100px;
+}
+.our .h1{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.our div{
+    width: 300px;
+}
+.our img{
+    width: 300px;
+    height: 200px;
+}
+.our i{
+    color:  rgb(197, 33, 33);
+    margin-top: 6px;
+}
+.our i span{
+    color: black;
+}
+.our h2{
+    text-transform: capitalize;
+    margin: 15px 0 15px;
+}
+.our p{
+    margin-top: 15px;
+}
